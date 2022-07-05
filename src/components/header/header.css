@@ -1,0 +1,107 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  height: 70px;
+}
+.person {
+  width: 44px;
+  height: 44px;
+  background: url(./icons/person.svg) no-repeat;
+  margin-left: 150px;
+}
+.header_bar {
+  margin-left: 79px;
+  display: flex;
+}
+.header_tool {
+  display: flex;
+  margin-right: 20px;
+  height: 43px;
+  background: #edf2f6;
+  border-radius: 12px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.header_tool:hover {
+  background: #9ed6ff;
+  box-shadow: 0px 4px 15px rgba(151, 211, 255, 0.63);
+}
+.header_tool:hover > .tool_name {
+  color: black;
+}
+.tool_icon_study {
+  width: 24px;
+  height: 24px;
+  background: url(./icons/education.svg) no-repeat;
+  margin-right: 10px;
+  margin-left: 17px;
+}
+.tool_icon_rate {
+  width: 22px;
+  height: 20px;
+  background: url(./icons/rate.svg);
+  margin-right: 10px;
+  margin-left: 17px;
+}
+.tool_icon_carier {
+  width: 22px;
+  height: 18px;
+  background: url(./icons/carier.svg);
+  margin-right: 10px;
+  margin-left: 17px;
+}
+.tool_icon_adapt {
+  width: 18px;
+  height: 24px;
+  background: url(./icons/adapt.svg);
+  margin-right: 10px;
+  margin-left: 17px;
+}
+.tool_icon_analys {
+  width: 28px;
+  height: 27px;
+  background: url(./icons/analit.svg) no-repeat center;
+  margin-right: 10px;
+  margin-left: 17px;
+}
+.tool_icon_staff {
+  width: 28px;
+  height: 20px;
+  background: url(./icons/persons.svg);
+  margin-right: 10px;
+  margin-left: 17px;
+}
+.tool_name {
+  margin-right: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #63707c;
+}
+.buttons {
+  display: flex;
+  margin-left: 73.5px;
+}
+.call_btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: url(./icons/bell.svg) no-repeat center;
+  background-color: #e3f7eb;
+  margin-right: 21px;
+  cursor: pointer;
+}
+.exit_btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: url(./icons/exit.svg) no-repeat center;
+  background-color: #edf2f6;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #c0e0f7;
+}

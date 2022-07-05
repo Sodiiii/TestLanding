@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  background: linear-gradient(
+    92.38deg,
+    rgba(255, 255, 255, 0.44) 0%,
+    rgba(255, 255, 255, 0.31) 100%
+  );
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(103px);
+  border-radius: 24px;
+  padding: 20px;
+  margin-top: 23px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  height: 248px;
+}
+.title {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+}
+.statistics {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 22px;
+  background: linear-gradient(117.03deg, #84c4ff 0%, #2f9bff 100%);
+  border-radius: 9px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-right: 4px;
+}
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #010f30;
+}
+.green {
+  background: linear-gradient(102.6deg, #8affbd 0%, #11c55f 100%);
+}
+.yellow {
+  background: linear-gradient(102.6deg, #fff493 0%, #ffec47 100%);
+  color: black;
+}
+.purpure {
+  background: linear-gradient(102.6deg, #a387ff 0%, #6e42ff 100%);
+}
+.red {
+  background: linear-gradient(102.6deg, #ff6464 0%, #ff3e3e 100%);
+}
+
+.dia {
+  margin-left: 165px;
+  width: 225px;
+  height: 225px;
+  background: url(./Group.png);
+}

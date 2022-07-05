@@ -1,0 +1,40 @@
+.rate_wrapper {
+  display: flex;
+  width: 410px;
+  height: 194px;
+  background: linear-gradient(
+    92.38deg,
+    rgba(255, 255, 255, 0.44) 0%,
+    rgba(255, 255, 255, 0.31) 100%
+  );
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(103px);
+  border-radius: 24px;
+  margin-top: 22px;
+  margin-left: 24px;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.percentage {
+  font-weight: 600;
+  font-size: 100px;
+  color: #010f30;
+}
+.description {
+  width: 190px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #63707c;
+}
+.rate_diagramm {
+  width: 151px;
+  height: 151px;
+  background: url(./diagramm.svg);
+  margin-top: 15px;
+  margin-left: 22px;
+}
